@@ -2,7 +2,6 @@ package cn.hn.java.summer.springnctest.service;
 
 import cn.hn.java.summer.springnctest.bean.User;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * Created by xw2sy on 2017-07-15.
@@ -23,7 +22,7 @@ public class HelloService implements IHello {
         return "name:"+name;
     }
 
-    public String info(@PathVariable("id") String id) {
+    public String info(String id) {
         return "info id:"+id;
     }
 }
