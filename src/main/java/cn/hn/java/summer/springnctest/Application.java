@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by xw2sy on 2017-07-16.
  */
 @SpringBootApplication(scanBasePackages = "cn.hn.java.summer.springnctest.service")
-//extends AutoControllerConfiguration or
 //@ImportAutoConfiguration(AutoControllerConfiguration.class)
+// or extends AutoControllerConfiguration
 public class Application extends AutoControllerConfiguration{
 
     public static void main(String[] args) {
