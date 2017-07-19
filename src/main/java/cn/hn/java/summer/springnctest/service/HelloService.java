@@ -14,7 +14,11 @@ public class HelloService implements IHello {
         return "hello "+user.getName();
     }
 
-    public String say2(String name, int age) {
+    public String say(String msg) {
+        return "hello "+msg;
+    }
+
+    public String say(String name, int age) {
         return "name:"+name+" age:"+age;
     }
 
